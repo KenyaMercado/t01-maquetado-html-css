@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Manrope', sans-serif; /* Fuente importada */
+}
+
+:root{
+    --blue: #0F4A5D; /*Creamos la variable blue y le asignamos un color en hexadecimal */
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    width: 100%;
+    height: 20%;    
+}
+
+img{
+    width:30%;
+    height:84%; /* Modificamos el tamaño de la imagen */
+    margin-top: 10px; 
+    border-radius: 5px; /* Redondeamos los bordes de la imagen */
+    margin-right: 100px; 
+}
+
+#contenedorFoto{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    float: left;
+    background-color: var(--blue); /* Asignamos un color de fondo al contenedor con la variable blue*/
+    
+}
+#contenedorNombre{
+    width: 100%;
+    height: 100%;
+    text-align: center; /* Centramos el texto dentro del contenedor con "herencia de estilos" */
+    text-align: center;
+    background-color: var(--blue); /* Asignamos un color de fondo al contenedor con la variable blue*/
+}
+
+h1{
+    padding-top: 50px;
+    padding-right: 400px;
+    font-size: 40px;   /* Asigna un tamaño de fuente al texto */
+    color: #FFFF;   /* Cambiamos de color el texto con código hexadecimal*/
+}
+
+h2{
+    color: var(--blue); /* Asignamos el color del texto del h2 con la variable blue */
+}
+.estiloContenedores{
+    margin-top: 10px;
+    padding-left: 20px;
+    border-style: ridge; /* Agrega bordes al contenedor */
+}
+p{
+    text-align: justify;
+}
+
+
